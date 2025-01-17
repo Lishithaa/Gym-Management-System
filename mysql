@@ -1,0 +1,10 @@
+CREATE DATABASE gym_management;
+
+USE gym_management;
+
+CREATE TABLE members (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    schedule VARCHAR(50) NOT NULL
+);
